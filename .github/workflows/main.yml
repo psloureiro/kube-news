@@ -45,6 +45,6 @@ jobs:
           # Push is a shorthand for --output=type=registry
           push: true
           # List of tags
-          tags:
+          tags: |
             psloureiro/kube-news:latest
             psloureiro/kube-news:${{github.run_number}}
